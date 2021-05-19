@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "zotion"
+version = "0.1.0"
+description = "A python client for official notion API"
+authors = ["avlm <victor.luckwu@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+python-decouple = "^3.4"
+httpx = "^0.18.1"
+addict = "^2.4.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+ipdb = "^0.13.7"
+ipython = "^7.23.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
