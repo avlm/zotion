@@ -1,9 +1,19 @@
 [tool.poetry]
 name = "zotion"
-version = "0.1.0"
-description = "A python client for official notion API"
+version = "0.1.1"
+description = "A python client for the official notion API"
 authors = ["avlm <victor.luckwu@gmail.com>"]
 license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/avlm/zotion"
+repository = "https://github.com/avlm/zotion"
+keywords = ["notion", "api", "python", "client", "official"]
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+include = ["LICENSE"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -15,6 +25,7 @@ addict = "^2.4.0"
 flake8 = "^3.9.2"
 ipdb = "^0.13.7"
 ipython = "^7.23.1"
+pytest = "^6.2.4"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
